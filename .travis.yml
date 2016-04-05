@@ -17,6 +17,7 @@ script:
 
 install:
     - pip install tox
+    - npm install
 
 script:
     - tox -e $TOX_ENV
