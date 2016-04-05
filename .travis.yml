@@ -12,6 +12,7 @@ before_install:
     - sudo chmod +x runtests.py
 
 install:
+    - pip install -r requirements.txt
     - npm install
 
 script:
