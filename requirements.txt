@@ -21,7 +21,7 @@ react==2.0.2
 django-webpack-loader==0.3.0
 
 # cron
-django-cron==0.8.0
+django-cron==0.4.6
 
 # cent
 cent>=1.1.0
