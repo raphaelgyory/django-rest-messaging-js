@@ -16,8 +16,9 @@ install:
     - npm install
 
 before_script:
+    - echo "{"status":"done","chunks":{"main":[{"name":"example-django-rest-messaging-1.0.1.js","path":"/home/travis/build/raphaelgyory/django-rest-messaging-js/example/dist/example-django-rest-messaging-1.0.1.js"}]}}" >> /home/travis/build/raphaelgyory/django-rest-messaging-js/webpack-stats-example.json
     - python migrate.py
-
+    
 script:
     - ./runtests.py
 
