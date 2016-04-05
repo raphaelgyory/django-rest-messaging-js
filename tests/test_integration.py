@@ -53,7 +53,7 @@ class IntegrationTests(StaticLiveServerTestCase):
     def integration(self, url):
         # for now, the user is anonymous and should see no message
         self.selenium.get(self.live_server_url + reverse(url))
-        time.sleep(10)
+        time.sleep(120)
         message_form_u = self.selenium.find_elements_by_class_name("messagesMessagesFormUnactivated")
         message_list_u = self.selenium.find_elements_by_class_name("messagesMessagesListUnauthenticated")
         message_load_more_u = self.selenium.find_elements_by_class_name("messagesLoadMoreUnactivated")
