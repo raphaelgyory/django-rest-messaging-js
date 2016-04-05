@@ -16,7 +16,7 @@ install:
     - npm install
 
 before_script:
-    - django-admin migrate
+    - python migrate.py
 
 script:
     - ./runtests.py
