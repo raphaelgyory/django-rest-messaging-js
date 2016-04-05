@@ -13,8 +13,7 @@ if __name__ == "__main__":
     from tests.conftest import pytest_configure
     # we use the same settings than in the unit tests
     # except for the js file
-    database_name = 'runtestapplication.db'
-    pytest_configure(database_name=database_name)
+    pytest_configure()
     # now we load the settings
     from django.conf import settings
     # we ensure the user is running "python migrations.py makemigrations rest_messaging"

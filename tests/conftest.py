@@ -3,9 +3,7 @@ PROJECT_DIR = os.path.dirname(os.path.dirname(__file__))
 REACT_RENDER_URL = 9009
 
 
-def pytest_configure(database_name='runtestapplication.db',
-                     webpack_bundle_dir_name='dist/',
-                     webpack_bundle_stats_file='webpack-stats-example.json'):
+def pytest_configure():
 
     from django.conf import settings
 
@@ -13,7 +11,7 @@ def pytest_configure(database_name='runtestapplication.db',
         DEBUG=True,
         DEBUG_PROPAGATE_EXCEPTIONS=True,
         DATABASES={'default': {'ENGINE': 'django.db.backends.sqlite3',
-                               'NAME': database_name}},
+                               'NAME': 'runtestapplication.db'}},
         SITE_ID=1,
         SECRET_KEY='not very secret in tests',
         USE_I18N=True,
@@ -75,8 +73,8 @@ def pytest_configure(database_name='runtestapplication.db',
             'django.contrib.staticfiles.finders.AppDirectoriesFinder'
         ),
         WEBPACK_LOADER={
-            'BUNDLE_DIR_NAME': webpack_bundle_dir_name,
-            'STATS_FILE': os.path.join(PROJECT_DIR, webpack_bundle_stats_file),
+            'BUNDLE_DIR_NAME': 'dist/',
+            'STATS_FILE': os.path.join(PROJECT_DIR, 'webpack-stats-example.json'),
         },
         # Centrifugo
         CENTRIFUGO_PORT=8802,
