@@ -1,0 +1,42 @@
+{
+  "name": "django-rest-messaging-js",
+  "version": "1.0.0",
+  "description": "Javascript consumer for django-rest-messaging and django-rest-messaging-centrifugo",
+  "main": ".",
+  "directories": {
+    
+  },
+  "scripts": {
+    
+  },
+  "babel": {
+    "presets": [
+      "react"
+    ]
+  },
+  "keywords": [
+    "Django",
+    "Rest",
+    "Framework",
+    "Django",
+    "Rest",
+    "Messaging"
+  ],
+  "author": "Raphael Gyory",
+  "license": "MIT",
+  "dependencies": {
+   
+  },
+  "devDependencies": {
+    "babel": "^6.3.13",
+    "babel-core": "^6.3.15",
+    "babel-loader": "^6.2.0",
+    "babel-register": "^6.7.2",
+    "express": "^4.13.4",
+    "react": "^0.14.7",
+    "react-dom": "^0.14.7",
+    "jade": "^1.11.0",
+    "webpack": "^1.12.9",
+    "webpack-bundle-tracker": "0.0.8"
+  }
+}

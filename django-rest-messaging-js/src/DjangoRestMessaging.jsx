@@ -1,0 +1,30 @@
+
+var DjangoRestMessaging = {
+		MessagesForm: require('./components/MessagesForm'),
+		MessagesFormDefaultInput: require('./components/MessagesFormDefaultInput'),
+		MessagesList: require('./components/MessagesList'),
+		MessagesListRowDefaultLayout: require('./components/MessagesListRowDefaultLayout'),
+		MessagesLoadMore: require('./components/MessagesLoadMore'),
+		MessagesManager: require('./components/MessagesManager'),
+		NotificationsCounter: require('./components/NotificationsCounter'),
+		ThreadsCreateLink: require('./components/ThreadsCreateLink'),
+		ThreadsForm: require('./components/ThreadsForm'),
+		ThreadsFormDefaultRecipientRow: require('./components/ThreadsFormDefaultRecipientRow'),
+		ThreadsFormDefaultRecipientSelectedBagde: require('./components/ThreadsFormDefaultRecipientSelectedBagde'),
+		ThreadsFormSelectableRecipients: require('./components/ThreadsFormSelectableRecipients'),
+		ThreadsFormSelectedRecipients: require('./components/ThreadsFormSelectedRecipients'),
+		ThreadsFormSelectedRecipientsSave: require('./components/ThreadsFormSelectedRecipientsSave'),
+		ThreadsList: require('./components/ThreadsList'),
+		ThreadsListRowDefaultLayout: require('./components/ThreadsListRowDefaultLayout'),
+		ThreadsLoadMore: require('./components/ThreadsLoadMore'),
+		ThreadsQuit: require('./components/ThreadsQuit'),
+		ajaxRequest: require('./queries/AjaxCsrf'),
+		MessageStore: require('./stores/MessageStore'),
+		MessageQueries: require('./queries/MessageQueries'),
+		adapters: require('./utils/adapters'),
+		listeners: require('./utils/listeners'),
+		users: require('./utils/users'),
+		utils: require('./utils/utils'),
+}
+
+module.exports = DjangoRestMessaging;

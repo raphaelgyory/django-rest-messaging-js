@@ -1,0 +1,4 @@
+site_name: django-rest-messaging-js
+site_description: Js consumer for django rest messaging
+repo_url: https://github.com/raphaelgyory/django-rest-messaging-js
+site_dir: html

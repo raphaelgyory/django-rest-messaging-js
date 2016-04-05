@@ -1,0 +1,11 @@
+{
+  "status": "built",
+  "errors": null,
+  "files": {
+    "django-rest-messaging-js": [
+      "foo/bar.js",
+      "woz/bar.css",
+      "bar/woz.png"
+    ]
+  }
+}

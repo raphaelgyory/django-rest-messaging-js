@@ -1,0 +1,65 @@
+{
+  "name": "django-rest-messaging-js",
+  "version": "1.0.0",
+  "description": "Javascript consumer for django-rest-messaging and django-rest-messaging-centrifugo",
+  "main": "DjangoRestMessaging.jsx",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "jest",
+    "gulp": "gulp",
+    "minify": "gulp minify"
+  },
+  "jest": {
+    "scriptPreprocessor": "preprocessor.js",
+    "unmockedModulePathPatterns": [
+      "./node_modules/react",
+      "./node_modules/fbjs",
+      "./node_modules/react-dom",
+      "./node_modules/react-addons-test-utils"
+    ]
+  },
+  "jest-webpack-alias": {
+    "configFile": "../webpack.source.config.js"
+  },
+  "babel": {
+    "presets": [
+      "react"
+    ]
+  },
+  "keywords": [
+    "Django",
+    "Rest",
+    "Framework",
+    "Django",
+    "Rest",
+    "Messaging"
+  ],
+  "author": "Raphael Gyory",
+  "license": "MIT",
+  "dependencies": {
+    "flux": "^2.1.1",
+    "keymirror": "^0.1.1",
+    "moment": "^2.11.2",
+    "object-assign": "^4.0.1"
+  },
+  "devDependencies": {
+    "babel": "^6.3.13",
+    "babel-core": "^6.3.15",
+    "babel-jest": "^6.0.1",
+    "babel-loader": "^6.2.0",
+    "babel-preset-react": "^6.5.0",
+    "babel-register": "^6.6.0",
+    "jade": "^1.11.0",
+    "jest-cli": "^0.8.1",
+    "jest-webpack-alias": "^2.0.0",
+    "jquery": "^2.2.1",
+    "react": "^0.14.7",
+    "react-addons-test-utils": "^0.14.7",
+    "react-dom": "^0.14.7",
+    "react-render": "^1.1.0",
+    "webpack": "^1.12.9",
+    "webpack-bundle-tracker": "0.0.8"
+  }
+}
