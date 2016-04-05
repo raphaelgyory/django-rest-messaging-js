@@ -21,6 +21,8 @@ local/
 node_modules
 django-rest-messaging-js/node_modules
 example/node_modules
+webpack-stats-example.json
+webpack-stats-source.json
 
 !.gitignore
 !.travis.yml
