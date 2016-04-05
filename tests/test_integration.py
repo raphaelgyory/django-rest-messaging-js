@@ -312,7 +312,7 @@ class IntegrationTests(StaticLiveServerTestCase):
         thread_list_body = self.selenium.find_elements_by_class_name("threadListLayoutBody")
         self.assertEqual(thread_list_body[0].get_attribute('innerHTML'), message_in_thread.body)
 
-'''
+
 # DJANGO_REST_MESSAGING_THREADS_PAGE_SIZE allows us to test the load more thread btn
 @override_settings(CENTRIFUGO_PORT=8802,
                    CENTRIFUGE_ADDRESS='http://localhost:{0}/'.format(8802),
@@ -323,7 +323,6 @@ class TestClientSide(IntegrationTests):
     def test_integration_client_side(self):
         """ Test client side """
         self.integration(url='rest_messaging_js:django_local_webpack')
-'''
 
 
 # DJANGO_REST_MESSAGING_THREADS_PAGE_SIZE allows us to test the load more thread btn

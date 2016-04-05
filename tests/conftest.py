@@ -72,10 +72,10 @@ def pytest_configure():
             'django.contrib.staticfiles.finders.FileSystemFinder',
             'django.contrib.staticfiles.finders.AppDirectoriesFinder'
         ),
-        # WEBPACK_LOADER={
-        #    'BUNDLE_DIR_NAME': 'django-rest-messaging-js/dist/',
-        #    'STATS_FILE': os.path.join(PROJECT_DIR, 'webpack-stats-example.json'),
-        # },
+        WEBPACK_LOADER={
+            'BUNDLE_DIR_NAME': 'django-rest-messaging-js/dist/',
+            'STATS_FILE': os.path.join(PROJECT_DIR, 'webpack-stats-example.json'),
+        },
         # Centrifugo
         CENTRIFUGO_PORT=8802,
         CENTRIFUGO_MESSAGE_NAMESPACE="messages",
