@@ -9,6 +9,6 @@ Creates an empty database.
 
 from django.core.management import execute_from_command_line
 from tests.conftest import pytest_configure
-pytest_configure(database_name='runtestapplication.db')  # we use the same settings than in the unit tests
+pytest_configure()
 from django.conf import settings
 execute_from_command_line(['django-admin', 'migrate'])
