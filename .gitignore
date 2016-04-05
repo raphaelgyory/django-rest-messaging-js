@@ -7,7 +7,6 @@ html/
 htmlcov/
 coverage/
 build/
-dist/
 *.egg-info/
 MANIFEST
 

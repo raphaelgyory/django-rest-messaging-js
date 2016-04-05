@@ -1,0 +1,194 @@
+.threadListLayout{
+	border-bottom: 1px solid #dedede;
+	padding-bottom:5px;
+	margin-bottom:5px;
+	height:60px;
+	cursor: pointer;
+}
+		
+.threadListLayoutImage{
+	margin-right: 10px;
+	width: 50px;
+	height:50px;
+	border: 1px solid #dedede;
+	padding:2px;
+	border-radius: 5px;
+	float:left;
+	display:block;
+}
+		
+.threadListLayoutBody{
+	color: #444;
+}
+
+.threadIsNotification{
+	
+}
+		
+.threadIsUnread:after {
+    content: ' \25CF';
+    font-size: 15px;
+    color:rgba(0,200,0,0.5);
+}
+  		
+.selectableRecipient{
+	cursor:pointer;
+	margin:5px;
+}
+
+.messagesMessagesForm{
+	background-color:#efefef;
+	padding:10px;
+}
+  		
+.messageList {
+	padding:10px;
+	margin:10px;
+	
+}
+
+.messageListCore{
+	display:inline-flex;
+}
+
+.messageList .messageListLayoutBody {
+	border-radius: 15px;
+	padding: 10px;
+	min-width:50px;
+}
+  		
+.messageListLayoutImage{
+	margin-right: 10px;
+	width: 50px;
+	height:50px;
+	border: 1px solid #dedede;
+	padding:2px;
+	border-radius: 5px;
+}
+
+.messageListLayoutDate{
+	font-size: 65%;
+	color: #555;
+	margin-top: 3px;
+	display:block;
+}
+
+.messageSentByCurrentParticipant {
+	margin-left:85px;
+	text-align:right;
+}
+  		
+.messageSentByCurrentParticipant .messageListLayoutBody {
+	background-color:rgba(0,200,0,0.5);
+	color:white;
+}
+
+.messageSentByOtherParticipant{
+	margin-right:85px;
+}
+
+.messageSentByOtherParticipant .messageListLayoutBody {
+	background-color:rgba(200,200,200,0.3);
+}
+		
+#messageMaxHeight {
+    height: 350px;
+    max-height: 350px;
+    overflow: auto;
+}
+		
+.messagesThreadsForm {
+	margin-bottom: 10px;
+	background-color:#efefef;
+	padding:10px;
+}
+
+.recipientsSelectable {
+    height: 150px;
+    max-height: 150px;
+    overflow: auto;
+}
+  		
+.recipientsSelected {
+	margin-top:10px;
+	margin-bottom:10px;
+}
+	
+.recipientBadge {
+	padding: 5px;
+	color:#31708F;
+	background-color:#D9EDF7;
+	margin-right:1px;
+}
+	
+.removeRecipientBadge {
+	cursor: pointer;
+	font-weight:bolder;
+	font-style: normal;
+}
+	
+.threadFormTitleHeader {
+	font-size: 18px;
+	margin-bottom:15px;
+}
+	
+.recipientAddToThreadLink {
+	cursor:pointer;
+}
+	
+.messagesMessagesLoadMore {
+	margin-bottom:10px;
+}
+  		
+.notificationCounter {
+	cursor: pointer;
+	height:50px;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+  		
+.notificationCounterPositiveIcon{
+	color: red;
+}
+
+.notificationCounterPositiveCount{
+	color: black;
+	margin-top:-5px;
+	font-weight: bold;
+	float:right;
+	font-size: 65%;
+	height:10px;		
+}
+  		
+.btnLogin {
+	margin-top:7px;
+	margin-right:0px;
+}
+
+.navbar {
+	background-color: white;
+	border-bottom: 1px solid #efefef;
+}
+
+.navbar-brand {
+	color:rgba(0,0,0,0.9) !important;
+}
+
+.navbar-nav > li > a {
+	color:rgba(0,0,0,0.9) !important;
+}
+
+.navBarImage {
+	heigth:20px;
+	width:20px;
+}
+  		
+.dropdown-menu {
+	padding:10px;
+	width:300px;
+}
+
+.navbar2 {
+	margin-top:50px;
+	background-color:#efefef;
+}
