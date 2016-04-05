@@ -2,6 +2,10 @@
 Django>=1.6
 djangorestframework>=2.4.3
 
+# django rest messaging
+django-rest-messaging==1.0.3
+django-rest-messaging-centrifugo==1.0.3
+
 # Test requirements
 pytest-django==2.6
 pytest==2.5.2
