@@ -74,7 +74,7 @@ def pytest_configure():
         ),
         WEBPACK_LOADER={
             'DEFAULT': {
-                'BUNDLE_DIR_NAME': 'django-rest-messaging-js/dist/',
+                'BUNDLE_DIR_NAME': 'dist/',
                 'STATS_FILE': os.path.join(PROJECT_DIR, 'webpack-stats-example.json'),
             }
         },
