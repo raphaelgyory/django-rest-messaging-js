@@ -41,7 +41,6 @@
   "dependencies": {
     "flux": "^2.1.1",
     "keymirror": "^0.1.1",
-    "moment": "^2.11.2",
     "object-assign": "^4.0.1"
   },
   "devDependencies": {

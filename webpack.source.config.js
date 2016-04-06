@@ -26,6 +26,7 @@ module.exports = {
 	    "jquery": "jQuery",
 	    "jquery": "$",
 	    "react": "React",
+	    "moment": "moment"
 	},
 	
 	plugins: [
