@@ -13,7 +13,7 @@ module.exports = {
 
 	output: {
 		path: path.resolve(__dirname + '/django-rest-messaging-js/dist'),
-		filename: "django-rest-messaging-1.0.1.js",
+		filename: "django-rest-messaging-1.0.2.js",
 		//export itself to a global var
 		libraryTarget: "var",
 		// name of the global var: "DjangoRestMessaging"
